@@ -16,13 +16,22 @@ h1 {
     color: #EEEEEE;
 }
 
+h2 {
+    color: #EEEEEE;
+}
+
+.area {
+    text-align: center;
+    margin-top: 100px;
+}
+
 .container {
     background-color: #CBB279;
     padding: 20px;
     border-radius: 0 20px;
     width: 400px;
     box-shadow: 10px 10px 5px black;
-
+    display: inline-block;
 }
 
 label {
@@ -37,7 +46,9 @@ input {
     font-size: large;
     outline: none;
     border-radius: 10px;
-    background-color: #FFF6BF;
+    background-color: #008080;
+    color: #EEEEEE;
+    font-weight: 500;
 }
 
 .btns {
@@ -57,7 +68,10 @@ button {
     padding: 10px;
     font-size: medium;
     font-weight: bold;
-    background-color: #FFF6BF;
+    background-color: #008080;
+    color: #EEEEEE;
+    font-weight: 500;
+
 }
 
 span {
@@ -70,6 +84,21 @@ ul {
 
 li::marker {
     color: grey;
+}
+
+.container2 {
+    background-color: #FF7F50;
+    padding: 20px;
+    border-radius: 0 20px;
+    width: 400px;
+    box-shadow: 10px 10px 5px black;
+    display: inline-block;
+}
+
+.title2 {
+    font-size: larger;
+    font-weight: 500;
+    margin-right: 9px;
 }
 
 footer {
